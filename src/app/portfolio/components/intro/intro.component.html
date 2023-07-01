@@ -1,0 +1,45 @@
+<div class="flex flex-wrap w-full min-h-full h-fit bg-slate-50 justify-center items-center gap-10 p-2.5">
+
+    <!-- * Name Card -->
+    <div class="rounded-xl shadow-xl bg-light-blue px-6 py-6 flex flex-col gap-y-6">
+        <div>
+            <h1 class="text-dark-purple">Hue Sook Yan</h1>
+        </div>
+        <div class="flex flex-wrap-reverse gap-8">
+            <div class="flex flex-col gap-y-6">
+                <div class="text-xl font-bold">
+                    邱淑恩
+                </div>
+
+                <div class="text-lg font-normal">
+                    <a [href]="'https://wa.me/' + phone" target="_blank">+{{phone}}</a>
+                    <br>
+                    <a [href]="'mailto:' + email" target="_blank">{{email}}</a>
+                </div>
+
+                <div class="text-lg font-normal">
+                    <a [href]="linkedinUrl" target="_blank" rel="noopener noreferrer">{{linkedinUrl}}</a>
+                </div>
+            </div>
+
+            <div>
+                <img src="/assets/avatar.png" alt="avatar" width="150">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col w-128 h-min mx-6 my-6 text-lg gap-y-4">
+
+        <h1 class="text-dark-purple">Hello!</h1>
+        <p>
+            I am <span class="font-bold">Hue Sook Yan</span> from Kuala Lumpur, Malaysia.
+        </p>
+        <p>
+            I work as a software engineer, specializing in web development, and I have three years of experience in this field.
+        </p>
+        <p>
+            I really enjoy learning new things and overcoming challenges. It's exciting to tackle obstacles and keep growing in my skills and knowledge.
+        </p>
+    </div>
+
+</div>
